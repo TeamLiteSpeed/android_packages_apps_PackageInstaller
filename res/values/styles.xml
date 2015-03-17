@@ -19,8 +19,12 @@
         <item name="android:paddingStart">16dip</item>
         <item name="android:paddingEnd">16dip</item>
     </style>
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar"/>
-    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.DeviceDefault.Light.Panel">
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar"/>
+    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.DeviceDefault.Panel">
         <item name="android:backgroundDimEnabled">true</item>
+        <!-- from Theme.Material.Settings -->
+	<item name="android:background">@color/background_color</item>
+        <item name="android:colorPrimary">@*android:color/material_blue_grey_900</item>
+        <item name="android:colorPrimaryDark">@*android:color/material_blue_grey_950</item>
     </style>
 </resources>

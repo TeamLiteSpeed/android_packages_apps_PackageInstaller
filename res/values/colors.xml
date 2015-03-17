@@ -15,6 +15,7 @@
 -->
 
 <resources>
+    <color name="background_color">#FF000000</color>
     <color name="shadow">#cc222222</color>
     <color name="transparent">#00000000</color>
 </resources>
